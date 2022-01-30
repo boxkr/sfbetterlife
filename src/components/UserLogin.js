@@ -40,6 +40,7 @@ function UserLogin() {
     return (
 
         <div>
+            <Button onClick={()=>{navigate('/')}}>Back</Button>
             <Container>
 
                 <div>

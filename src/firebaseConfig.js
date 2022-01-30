@@ -3,12 +3,12 @@ import "firebase/auth"
 import "firebase/firestore"
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAk5_RWRjrSEEKUP3GDilnTjnCq8-jflWA",
-    authDomain: "sfbetterlife-7dd96.firebaseapp.com",
-    projectId: "sfbetterlife-7dd96",
-    storageBucket: "sfbetterlife-7dd96.appspot.com",
-    messagingSenderId: "87144507301",
-    appId: "1:87144507301:web:bfeff784b979dedb2aaa4c"
+    apiKey: process.env.APIKEY,
+    authDomain: process.env.AUTHDOMAIN,
+    projectId: process.env.PROJECTID,
+    storageBucket: process.env.STORAGEBUCKET,
+    messagingSenderId: process.env.SENDERID,
+    appId: process.env.APPID
 };
 
 let app;

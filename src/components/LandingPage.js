@@ -20,7 +20,7 @@ function LandingPage() {
                 </Button>
                 <br></br>
                 <Button variant="contained" sx={{fontSize:'20px',marginTop: '50px',width: '300px',color: 'white', backgroundColor: '#c41212', '&:hover':{color:'#c41212',backgroundColor: '#e8e8e8'}}} onClick={()=>(navigate('/doctorLogin'))}>
-                    I am a caregiver
+                    I am a physician
                 </Button>
             </Container>
             

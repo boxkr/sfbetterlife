@@ -85,7 +85,7 @@ function ChallengePage() {
 
                     // Colors
                     pathColor: `rgba(62, 152, 199, ${percentage / 100})`,
-                    textColor: '#f88',
+                    textColor: '#427a48',
                     trailColor: '#d6d6d6',
                     backgroundColor: '#aa2355',
                     path:{
@@ -112,7 +112,7 @@ function ChallengePage() {
 
                     // Colors
                     pathColor: `rgba(252, 192, 25, ${percentage / 100})`,
-                    textColor: '#f88',
+                    textColor: '#427a48',
                     trailColor: '#d6d6d6',
                     backgroundColor: '#3e98c7',
                     path:{
@@ -139,7 +139,7 @@ function ChallengePage() {
 
                     // Colors
                     pathColor: `rgba(62, 152, 199, ${percentage / 100})`,
-                    textColor: '#f88',
+                    textColor: '#000000',
                     trailColor: '#d6d6d6',
                     backgroundColor: '#3e98c7',
                 })}/>
@@ -163,7 +163,7 @@ function ChallengePage() {
 
                     // Colors
                     pathColor: `rgba(62, 152, 199, ${percentage / 100})`,
-                    textColor: '#f88',
+                    textColor: '#427a48',
                     trailColor: '#d6d6d6',
                     backgroundColor: '#3e98c7',
                 })}/>
@@ -187,7 +187,7 @@ function ChallengePage() {
 
                     // Colors
                     pathColor: `rgba(62, 152, 199, ${percentage / 100})`,
-                    textColor: '#f88',
+                    textColor: '#427a48',
                     trailColor: '#d6d6d6',
                     backgroundColor: '#3e98c7',
                 })} />
