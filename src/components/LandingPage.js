@@ -4,31 +4,25 @@ import './LandingPage.css';
 import logo from '../images/statefarm-logo-white.png';
 import Button from '@mui/material/Button';
 import {useNavigate} from 'react-router-dom';
+import Typography from '@mui/material/Typography';
 
 
 function LandingPage() {
     const navigate = useNavigate();
     return (
 
-        <div>
+        <div className='wrapper'>
 
-            <div className='welcome'>
-                <Button 
-                variant="contained"
-                sx={{color: 'black', 
-                    backgroundColor: 'white', 
-                    '&:hover': {
-                        backgroundColor: 'white'}
-                }}
-                onClick={()=> (navigate("/userLogin"))}>
-                    I am a User
+            <Container>
+                <Typography sx={{marginTop: '150px',fontSize: '75px'}} variant='h2'>Welcome!</Typography>
+                <Button variant="contained" sx={{fontSize:'20px',width: '300px',marginTop: '100px',color: '#c41212', backgroundColor: 'white', '&:hover':{color: 'white' , backgroundColor: '#bf5656'}}} onClick={()=>(navigate('/userLogin'))}>
+                    I am a user
                 </Button>
-                <Button variant="contained" 
-                sx={{color: 'black', backgroundColor: 'white', '&:hover': {backgroundColor: 'white'}}}
-                onClick={()=> (navigate("/doctorLogin"))}>
-                    I am a Doctor
+                <br></br>
+                <Button variant="contained" sx={{fontSize:'20px',marginTop: '50px',width: '300px',color: 'white', backgroundColor: '#c41212', '&:hover':{color:'#c41212',backgroundColor: '#e8e8e8'}}} onClick={()=>(navigate('/doctorLogin'))}>
+                    I am a caregiver
                 </Button>
-            </div>
+            </Container>
             
             
         </div>
