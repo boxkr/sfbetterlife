@@ -1,3 +1,5 @@
+## TAMUHACK 2022
+
 ## Inspiration
 Taking care of your health is hard. It's a huge grind to keep track of all the things that keep you running at optimal potential, and it's easy to let good health that slip away, allowing bad habits to creep in. If repeated over years and years, these bad habits have the potential to shorten your life-span. We wanted to create a project that helped enable people who've developed these bad habits to get back on track. Merging this premise with State Farm Life Insurance creates an interesting opportunity to provide incentives for people to get healthy.
 
