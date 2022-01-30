@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+## Inspiration
+Taking care of your health is hard. It's a huge grind to keep track of all the things that keep you running at optimal potential, and it's easy to let good health that slip away, allowing bad habits to creep in. If repeated over years and years, these bad habits have the potential to shorten your life-span. We wanted to create a project that helped enable people who've developed these bad habits to get back on track. Merging this premise with State Farm Life Insurance creates an interesting opportunity to provide incentives for people to get healthy.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What it does
+The BetterLife challenge is designed for people who have developed bad habits, like smoking or excessive unhealthy food choices. These people would traditionally pay higher rates for life insurance than those considered healthy. It's supposed to be a 365 day program that at-risk users can enroll into in order to lower their life insurance costs. During the program you pair with a care-provider like a general doctor and keep track of 5 major metrics that we decided would be the largest factors pertaining to health. Users have set goals they want to reach by the end of the 365 program, and several benchmarks to hit on their way there that would lower the cost of their life insurance by a certain percentage. To keep track of metrics, users will meet with their paired doctor and send them different measurements through the app for them to approve in order to prevent cheating. Through our app, users have an incentive to get healthy by saving money, and can watch their not only their progress, but the possibilities of the road ahead.
 
-## Available Scripts
+## How we built it
+The frontend is built in Javascript using React.JS, and the backend utilities like user authentication and the database uses Google Firebase.
 
-In the project directory, you can run:
+## Challenges we ran into
+There were some interesting errors with Google Firebase, we think because a recent major update which changed a bunch of syntax.
 
-### `npm start`
+## Accomplishments that we're proud of
+Not all of us have a lot of experience in Web Development, and it's one of our members first hackathons so we're happy we got to release a working product!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## What we learned
+Things never go as smoothly as you imagine them
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## What's next for Statefarm BetterLife Challenge
+We didn't have time to fully integrate the database, and theres more features we'd like to touch up on. If this were to be a real application offered by State Farm, there would also be actual integration with their system where you'd save actual money.
