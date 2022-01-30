@@ -32,6 +32,7 @@ function UserHome() {
 
             <div className='welcome'>
                 <Typography sx={{fontSize: '40px'}} component='h1' varient='h1'>Welcome back, {auth.currentUser.email}</Typography>
+                <Typography sx={{fontSize: '20px'}} component='h1' varient='h5'>There are 144 days left</Typography>
             </div>
 
             <div className='amount'>
