@@ -1,37 +1,39 @@
 .container {
-
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    flex-direction: column;
-    background-color: white;
-    height: 100%;
-
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  flex-direction: column;
+  background-color: white;
+  height: 100%;
 }
 
-.welcome{
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 15%;
-    
+.welcome {
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 15%;
 }
 
 .amount {
-    text-align: center;
-    width: 30%;
-    height: 30%;
-    margin-left: 35%;
-    margin-top: 15%;
-    justify-content: center;
+  text-align: center;
+  width: 30%;
+  height: 30%;
+  margin-left: 35%;
+  margin-top: 15%;
+  justify-content: center;
 }
 
 .amttxt {
-    margin-top: 100%;
+  margin-top: 100%;
 }
 
 .challenges {
-    margin-left: 45%;
-    margin-top: 15%;
+  margin-left: 45%;
+  margin-top: 15%;
+}
+
+.logout {
+  margin-top: 10%;
+  margin-left: 46.5%;
 }

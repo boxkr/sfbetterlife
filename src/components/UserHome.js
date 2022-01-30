@@ -13,7 +13,18 @@ function UserHome() {
 
     const currentUser = {username: "keegan"}
     const navigate = useNavigate();
-    
+
+    const handleSignout = () => {
+        auth.signOut()
+        .then(()=>{
+            navigate('/userLogin')
+            console.log('user logged out')
+        })
+        .catch( (err) =>{
+            alert(err.message);
+        } )
+    }
+
     return (
 
         
@@ -32,6 +43,11 @@ function UserHome() {
             <div className='challenges'>
                 <Fab onClick={()=>{navigate('/challenges')}} variant="extended" sx={{backgroundColor: '#c94b59', marginTop: '-60px'}}>
                     My Metrics
+                </Fab>
+            </div>
+            <div className='logout'>
+                <Fab onClick={handleSignout} variant="extended" sx={{color:'white',backgroundColor: '#300307', marginTop: '-60px'}}>
+                    Log Out
                 </Fab>
             </div>
 
