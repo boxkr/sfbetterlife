@@ -1,0 +1,37 @@
+.container {
+
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+    background-color: white;
+    height: 100%;
+
+}
+
+.welcome{
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 15%;
+    
+}
+
+.amount {
+    text-align: center;
+    width: 30%;
+    height: 30%;
+    margin-left: 35%;
+    margin-top: 15%;
+    justify-content: center;
+}
+
+.amttxt {
+    margin-top: 100%;
+}
+
+.challenges {
+    margin-left: 45%;
+    margin-top: 15%;
+}

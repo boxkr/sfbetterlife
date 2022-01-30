@@ -4,7 +4,15 @@ function LandingPage() {
 
     return (
 
-        <div>Landing Page</div>
+        <div>
+
+
+
+            <p>LandingPage</p>
+
+
+
+        </div>
     )
 
 
